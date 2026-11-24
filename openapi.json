@@ -2,7 +2,7 @@
   "openapi": "3.0.3",
   "info": {
     "title": "FoodExpress API",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "description": "Fictional foodexpress demonstration. No real customer data."
   },
   "paths": {
@@ -106,7 +106,7 @@
           }
         }
       },
-      "patch": {
+      "put": {
         "summary": "Update record",
         "requestBody": {
           "content": {
